@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    {{> head }}
+</head>
+
+<body>
+
+    {{> header }}
+
+
+    <section>
+        <h1>{{pageName}}</h1>
+        <form action="/login" method="POST">
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                    title="This do not look like an email" required>
+            </div>
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        {{#if messages.error}}
+        <p>{{messages.error}}</p>
+        {{/if}}
+    </section>
+
+    {{> footer }}
+</body>

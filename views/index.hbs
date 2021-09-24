@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    {{> head }}
+</head>
+
+<body>
+
+    {{> header }}
+
+    <section>
+        {{#if userName}}
+        <h1>Hi {{userName}}!</h1>
+        {{else}}
+        <h1>Welcome!</h1>
+        {{/if}}
+    </section>
+
+    {{> footer }}
+
+</body>

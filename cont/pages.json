@@ -1,0 +1,39 @@
+{
+    "pageNames": [
+        {
+            "subjName": "Homepage",
+            "subjLink": "/",
+            "pageTemp": "index"
+        },
+        {
+            "subjName": "Math",
+            "subjLink": "/math",
+            "pageTemp": "subj"
+        },
+        {
+            "subjName": "Czech",
+            "subjLink": "/czech",
+            "pageTemp": "subj"
+        },
+        {
+            "subjName": "English",
+            "subjLink": "/english",
+            "pageTemp": "subj"
+        },
+        {
+            "subjName": "Science",
+            "subjLink": "/science",
+            "pageTemp": "subj"
+        },
+        {
+            "subjName": "Economic",
+            "subjLink": "/science",
+            "pageTemp": "subj"
+        },
+        {
+            "subjName": "Web design",
+            "subjLink": "/science",
+            "pageTemp": "subj"
+        }
+    ]
+}
